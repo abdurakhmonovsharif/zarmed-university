@@ -1,0 +1,102 @@
+.myQuestions {
+    font-family: Arial, sans-serif;
+    background-image: url('../../images/question.jpeg');
+    background-size: cover; /* Ensures the image covers the whole area */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
+    /* margin: 0 auto; */
+    padding: 1% 1%;
+    position: relative; /* This is necessary for the pseudo-element */
+    width: 100%;
+}
+
+.innerQuestion{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+
+.faq-section {
+    /*background: rgba(255, 255, 255, 0.9);*/
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 8px;
+
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+@media (max-width: 1200px) {
+    .faq-section  {
+     display: flex;
+     flex-direction: column;
+    }
+  }
+.accordion-item-primary .accordion-header,
+.accordion-item-primary .accordion-body {
+    background-color: #007bff; /* Primary color */
+    color: white; /* Ensures text is visible on the primary background */
+}
+.myTitleQuestion{
+    /* margin-left: 7%; */
+    color:#334155;
+    font-size: 30px;
+    font-weight: 650;
+    z-index: 100;
+    color: white;
+}
+
+
+
+
+.faq-item {
+    width: 40vw;
+    min-width: 620px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .faq-item{
+        width: 40vw;
+        min-width: 320px;
+        margin-bottom: 10px;
+    }
+  }
+.faq-question {
+    width: 100%;
+    background: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.faq-question:hover {
+    background: #005bb5;
+}
+
+.faq-answer {
+    display: none;
+    background: #e7f3ff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.faq-answer a {
+    color: #0066cc;
+}
+
+.faq-answer {
+    display: block;
+}
+
+.accardion{
+    width: 30px;
+    background:red;
+}

@@ -1,0 +1,9 @@
+.q-wrap{
+    width: 100vw;
+    height: 30%;
+    /* background-image: url(../../images/questionBg.jpeg); */
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    
+}

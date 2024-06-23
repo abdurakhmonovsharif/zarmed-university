@@ -1,0 +1,23 @@
+.footer{
+    background-color: black;
+    width: 100%;
+}
+
+
+  .f-block{
+    max-width: 1440px;
+      display: flex;
+     margin: 0 auto;
+      gap: 20px;
+      padding: 70px;
+  }
+
+  @media (max-width: 767px) {
+    .f-block{
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  }
